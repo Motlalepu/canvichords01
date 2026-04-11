@@ -6,3 +6,6 @@
   command = "npm run build"
   # Default Vite output directory
   publish = "dist"
+
+[build.environment]
+  NPM_CONFIG_PRODUCTION = "false"
